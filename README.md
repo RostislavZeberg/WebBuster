@@ -1,6 +1,9 @@
 ### Landing создан на основе HTML, SCSS, JS + Gulp.
 1. Адаптирован под:
-<br/>- ;
+<br/>- 1280;
+<br/>- 1024;
+<br/>- 768;
+<br/>- 320;
 2. При разработке использовались библиотеки:
 <br/>- inputmask;
 <br/>- just-validate;
@@ -15,11 +18,6 @@
 <br/>- многослойный background;
 <br/>- linear-gradient;
 <br/>- clip-path;
-4. Landing адаптирован под:
-<br/>- 1280;
-<br/>- 1024;
-<br/>- 768;
-<br/>- 320;
 
 #### Landing запускается на дев сервере командой gulp dev.
 #### Сборка Landing - команда gulp build.
