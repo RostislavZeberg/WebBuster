@@ -23,4 +23,4 @@
 
 #### Landing запускается на дев сервере командой gulp dev.
 #### Сборка Landing - команда gulp build.
-#### Для просмотра результата перейдите по ссылке https://rostislavzeberg.github.io/MindboxTodo/
+#### Для просмотра результата перейдите по ссылке https://rostislavzeberg.github.io/WebBuster/
