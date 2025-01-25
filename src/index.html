@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/media.css">
+
+  <script defer src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script defer src="js/just-validate.min.js"></script>
+  <script defer src="js/inputmask.min.js"></script>
+  <script defer src="js/script.js"></script>
+  <title>SEMITEX</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top top">
+      <div class="container top__block">
+        <div class="logo" loading="lazy"></div>
+        <nav class="nav">
+          <ul class="nav__list list-reset">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Каталог</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Производители</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Для кого мы&nbsp;работаем</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Сертификаты</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">О&nbsp;нас</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">FAQ</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="tel">
+          <div class="tel__icon"></div>
+          <a class="tel__number" href="tel:+78123135845">+7 (812) 313-58-45</a>
+        </div>
+      </div>
+    </div>
+    <section class="company">
+      <div class="company__block container">
+        <div class="company__activity activity">
+          <div class="activity__connect">
+            <h1 class="activity__title">ОПТОВЫЕ ПОСТАВКИ </h1>
+            <p class="activity__title-min">электронных компонентов</p>
+            <p class="activity__title">ИЗ&nbsp;КИТАЯ ДЕНЬ В&nbsp;ДЕНЬ</p>
+            <p class="activity__descr">Комплексные поставки электронных компонентов и&nbsp;оборудования.</p>
+            <p class="activity__descr">Подберем аналоги популярных брендов из&nbsp;Европы в&nbsp;условиях санкций.</p>
+          </div>
+          <ul class="activity__list list-reset">
+            <li class="activity__item item">
+              <div class="item__icon"></div>
+              <p class="item__descr">
+                Отсрочка платежей для постоянных клиентов
+              </p>
+            </li>
+            <li class="activity__item item">
+              <div class="item__icon"></div>
+              <p class="item__descr">
+                Бесплатная доставка по&nbsp;Москве и&nbsp;СПБ в&nbsp;течение 2х&nbsp;часов
+              </p>
+            </li>
+            <li class="activity__item item">
+              <div class="item__icon"></div>
+              <p class="item__descr">
+                Квалифицированный персональный менеджер
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="company__contacts contacts">
+          <div class="contacts__top">
+            <h3 class="contacts__title">ЗАКАЖИТЕ ОБРАТНЫЙ ЗВОНОК</h3>
+          </div>
+          <form class="contacts__form form" id="form" target="_blank" action="#" method="post">
+            <ul class="form__list list-reset">
+              <li class="item">
+                <label for="name">
+                  <p class="item__title">Ваше имя*</p>
+                  <input class="item__input name" id="name" name="name" type="text" required="" placeholder="Имя*"
+                    data-validate-field="name">
+                </label>
+              </li>
+              <li class="item">
+                <label for="tel">
+                  <p class="item__title">Ваш номер*</p>
+                  <input class="item__input tel" id="tel" name="tel" type="tel" required="" placeholder="Телефон*"
+                    data-validate-field="tel" data-validate-rules="phone">
+                </label>
+              </li>
+            </ul>
+            <button class="form__btn hover active btn-reset" aria-label="Заказать">Заказать звонок</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="header__wave-container-down">
+      <div class="header__wave-down">
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="profitably container">
+      <h2 class="profitably__title">Почему с&nbsp;нами выгодно</h2>
+      <p class="profitably__descr">С&nbsp;1996 года мы&nbsp;занимаемся оптовыми поставками электронных компонентов
+        от&nbsp;ведущих производителей из&nbsp;Европы и&nbsp;Азии для Российских потребителей.</p>
+      <ul class="profitably__list list-reset">
+        <li class="profitably__item item">
+          <div loading="lazy" class="item__icon item__icon-1"></div>
+          <h4 class="item__title">Качественная продукция</h4>
+          <p class="item__descr">
+            Все наши товары сертифицированы и&nbsp;имеют сопроводительную документацию.
+          </p>
+        </li>
+        <li class="profitably__item item">
+          <div loading="lazy" class="item__icon item__icon-2"></div>
+          <h4 class="item__title">Индивидуальный подход</h4>
+          <p class="item__descr">
+            Возможность изготовления компонентов специально для вас на&nbsp;заводах-изготовителя.
+          </p>
+        </li>
+        <li class="profitably__item item">
+          <div loading="lazy" class="item__icon item__icon-3"></div>
+          <h4 class="item__title">Бесплатная доставка</h4>
+          <p class="item__descr">
+            При наличии товара на&nbsp;складе и&nbsp;заказе от&nbsp;10&nbsp;000&nbsp;рублей, доставим бесплатно
+            по&nbsp;Москве и&nbsp;СПБ в&nbsp;течение 2х&nbsp;часов.
+          </p>
+        </li>
+        <li class="profitably__item item">
+          <div loading="lazy" class="item__icon item__icon-4"></div>
+          <h4 class="item__title">Подбираем аналоги</h4>
+          <p class="item__descr">
+            Поможем подобрать аналоги популярных европейских брендов в&nbsp;условиях санкций.
+          </p>
+        </li>
+        <li class="profitably__item item">
+          <div loading="lazy" class="item__icon item__icon-5"></div>
+          <h4 class="item__title">Резервный запас компонентов</h4>
+          <p class="item__descr">
+            Хранение товара на&nbsp;наших складах для постоянных клиентов.
+          </p>
+        </li>
+        <li class="profitably__item item">
+          <div loading="lazy" class="item__icon item__icon-6"></div>
+          <h4 class="item__title">Гибкая система оплаты</h4>
+          <p class="item__descr">
+            Отсрочка платежей для постоянных клиентов.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="manufacturers">
+      <div class="manufacturers__wave-container-up">
+        <div class="wave-up">
+        </div>
+      </div>
+      <div class="manufacturers__wave-container-down">
+        <div class="wave-down">
+        </div>
+      </div>
+      <div class="manufacturers__block container">
+        <h2 class="manufacturers__title">Наши производители</h2>
+        <div class="wrapper-swiper">
+          <div class="swiper">
+            <ul class="manufacturers__list swiper-wrapper list-reset">
+              <li class="manufacturers__item swiper-slide item">
+                <div loading="lazy" class="item__icon item__icon-1"></div>
+              </li>
+              <li class="manufacturers__item swiper-slide item">
+                <div loading="lazy" class="item__icon item__icon-2"></div>
+              </li>
+              <li class="manufacturers__item swiper-slide item">
+                <div loading="lazy" class="item__icon item__icon-3"></div>
+              </li>
+              <li class="manufacturers__item swiper-slide item">
+                <div loading="lazy" class="item__icon item__icon-4"></div>
+              </li>
+              <li class="manufacturers__item swiper-slide item">
+                <div loading="lazy" class="item__icon item__icon-5"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="swiper__button button">
+            <svg class="button__prev" width="41" height="41" viewBox="0 0 41 41" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle opacity="0.5" cx="19.9629" cy="19.9629" r="19.9629"
+                transform="matrix(-0.999669 0.0257268 0.0257268 0.999669 39.9121 0)" fill="white" />
+              <path
+                d="M21.7034 26.9426C21.9191 26.943 22.128 26.8679 22.2941 26.7304C22.3875 26.6529 22.4648 26.5577 22.5214 26.4504C22.578 26.343 22.6129 26.2255 22.624 26.1046C22.6352 25.9837 22.6224 25.8619 22.5863 25.7459C22.5503 25.63 22.4918 25.5224 22.414 25.4291L18.2796 20.4825L22.2664 15.5267C22.343 15.4323 22.4003 15.3236 22.4348 15.207C22.4694 15.0905 22.4805 14.9682 22.4677 14.8473C22.4548 14.7263 22.4182 14.6091 22.3599 14.5024C22.3016 14.3957 22.2228 14.3016 22.128 14.2254C22.0325 14.1414 21.9206 14.078 21.7995 14.0393C21.6784 14.0005 21.5505 13.9872 21.424 14.0002C21.2975 14.0132 21.175 14.0522 21.0643 14.1148C20.9536 14.1774 20.857 14.2622 20.7806 14.3638L16.3231 19.9011C16.1873 20.0662 16.1131 20.2733 16.1131 20.4871C16.1131 20.7009 16.1873 20.908 16.3231 21.0731L20.9374 26.6104C21.03 26.7221 21.1476 26.8103 21.2807 26.8681C21.4138 26.9258 21.5586 26.9513 21.7034 26.9426Z"
+                fill="white" />
+            </svg>
+            <svg class="button__next" width="41" height="41" viewBox="0 0 41 41" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle opacity="0.5" cx="20.47" cy="20.4698" r="19.9629" transform="rotate(1.4742 20.47 20.4698)"
+                fill="white" />
+              <g transform="translate(17 14)">
+                <path
+                  d="M1.23602 12.9426C1.02039 12.943 0.811418 12.8679 0.645382 12.7304C0.551933 12.6529 0.474687 12.5577 0.418067 12.4504C0.361447 12.343 0.326566 12.2255 0.315421 12.1046C0.304277 11.9837 0.317088 11.8619 0.353121 11.7459C0.389154 11.63 0.447701 11.5224 0.525408 11.4291L4.65988 6.48249L0.673069 1.52666C0.59641 1.43226 0.539162 1.32364 0.504617 1.20705C0.470073 1.09045 0.458911 0.968178 0.471776 0.847256C0.48464 0.726333 0.521275 0.609145 0.579576 0.502427C0.637878 0.395709 0.716696 0.301565 0.8115 0.225407C0.906986 0.141391 1.01881 0.0780199 1.13995 0.0392693C1.26108 0.000518654 1.38893 -0.0127742 1.51544 0.000224432C1.64196 0.013223 1.76443 0.0522327 1.87516 0.114805C1.98589 0.177378 2.08249 0.262162 2.1589 0.363838L6.61638 5.90108C6.75212 6.06622 6.82632 6.27335 6.82632 6.48711C6.82632 6.70087 6.75212 6.908 6.61638 7.07313L2.00201 12.6104C1.90943 12.7221 1.79182 12.8103 1.65873 12.8681C1.52565 12.9258 1.38083 12.9513 1.23602 12.9426Z"
+                  fill="white" />
+              </g>
+            </svg>
+          </div>
+        </div>
+        <p class="manufacturers__descr">
+          Lorem ipsum dolor sit amet consectetur. Non eget blandit in&nbsp;euismod felis id&nbsp;quisque nunc. Non orci
+          lacus elit mauris velit gravida imperdiet&nbsp;id. Ipsum pulvinar ac&nbsp;ut sociis. Sed magna gravida
+          consequat et&nbsp;euismod aenean quis mauris. Ut&nbsp;etiam egestas ultrices faucibus ultrices nisl enim
+          consequat faucibus. Nibh id&nbsp;leo ullamcorper eleifend. Id&nbsp;at&nbsp;commodo interdum et&nbsp;leo.
+        </p>
+      </div>
+    </section>
+    <section class="scheme">
+      <div class="scheme__block container">
+        <h2 class="scheme__title">Схема работы</h2>
+        <p class="scheme__descr">Lorem ipsum dolor sit amet consectetur. Augue velit in&nbsp;enim sagittis imperdiet sit
+          mauris. Vitae sit in&nbsp;fusce massa amet.</p>
+        <ul class="scheme__list list-reset">
+          <li class="scheme__item">
+            <div class="item">
+              <span class="item__number">01</span>
+              <div class="item__content">
+                <h4 class="item__title">ВЫ ОСТАВЛЯЕТЕ ЗАЯВКУ</h4>
+                <p class="item__descr">Отправить запрос вы&nbsp;можете любым удобным для вас способом: например, через
+                  форму на&nbsp;сайте. Также вы&nbsp;можете связаться с&nbsp;нами напрямую.</p>
+              </div>
+            </div>
+          </li>
+          <li class="scheme__item">
+            <div class="item">
+              <span class="item__number">02</span>
+              <div class="item__content">
+                <h4 class="item__title">ВЫ ОСТАВЛЯЕТЕ ЗАЯВКУ</h4>
+                <p class="item__descr">Отправить запрос вы&nbsp;можете любым удобным для вас способом: например, через
+                  форму на&nbsp;сайте. Также вы&nbsp;можете связаться с&nbsp;нами напрямую.</p>
+              </div>
+            </div>
+          </li>
+          <li class="scheme__item">
+            <div class="item">
+              <span class="item__number">03</span>
+              <div class="item__content">
+                <h4 class="item__title">ВЫ ОСТАВЛЯЕТЕ ЗАЯВКУ</h4>
+                <p class="item__descr">Отправить запрос вы&nbsp;можете любым удобным для вас способом: например, через
+                  форму на&nbsp;сайте. Также вы&nbsp;можете связаться с&nbsp;нами напрямую.</p>
+              </div>
+            </div>
+          </li>
+          <li class="scheme__item">
+            <div class="item">
+              <span class="item__number">04</span>
+              <div class="item__content">
+                <h4 class="item__title">ВЫ ОСТАВЛЯЕТЕ ЗАЯВКУ</h4>
+                <p class="item__descr">Отправить запрос вы&nbsp;можете любым удобным для вас способом: например, через
+                  форму на&nbsp;сайте. Также вы&nbsp;можете связаться с&nbsp;нами напрямую.</p>
+              </div>
+            </div>
+          </li>
+          <li class="scheme__item">
+            <div class="item">
+              <span class="item__number">05</span>
+              <div class="item__content">
+                <h4 class="item__title">ВЫ ОСТАВЛЯЕТЕ ЗАЯВКУ</h4>
+                <p class="item__descr">Отправить запрос вы&nbsp;можете любым удобным для вас способом: например, через
+                  форму на&nbsp;сайте. Также вы&nbsp;можете связаться с&nbsp;нами напрямую.</p>
+              </div>
+            </div>
+          </li>
+          <li class="scheme__item">
+            <div class="item">
+              <span class="item__number">06</span>
+              <div class="item__content">
+                <h4 class="item__title">ВЫ ОСТАВЛЯЕТЕ ЗАЯВКУ</h4>
+                <p class="item__descr">Отправить запрос вы&nbsp;можете любым удобным для вас способом: например, через
+                  форму на&nbsp;сайте. Также вы&nbsp;можете связаться с&nbsp;нами напрямую.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <button class="scheme__btn hover active btn-reset">ОСТАВИТЬ ЗАЯВКУ</button>
+      </div>
+    </section>
+    <section class="answers">
+      <div class="kant"></div>
+      <div class="answers__wave-container-up">
+        <div class="wave-up">
+        </div>
+      </div>
+      <div class="answers__background">
+      </div>
+      <div class="answers__block container">
+        <h2 class="answers__title">Ответы на&nbsp;самые популярные вопросы в&nbsp;сфере</h2>
+        <ul class="answers__list list-reset">
+          <li class="answers__item item">
+            <div class="item__block" id="answersItemFromList-1">
+              <h3 class="item__title">Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.</h3>
+              <div class="item__open">
+                <svg class="open-circle" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <circle class="circle" cx="20" cy="20" r="20" fill="#757AEF"
+                    style="box-shadow: 0px 4px 30px 0px rgba(166, 190, 226, 0.5);" />
+                  <g transform="translate(13 16.5)">
+                    <path class="open"
+                      d="M14.0013 1.16105C14.0018 1.31044 13.9688 1.45805 13.9048 1.59303C13.8407 1.72801 13.7473 1.84693 13.6313 1.94105L7.63125 6.77105C7.45232 6.91813 7.22788 6.99853 6.99625 6.99853C6.76463 6.99853 6.54018 6.91813 6.36125 6.77105L0.361252 1.77105C0.157035 1.60131 0.028611 1.3574 0.00423124 1.09297C-0.0201485 0.828545 0.0615134 0.565264 0.231252 0.361047C0.40099 0.156831 0.644902 0.0284066 0.909328 0.00402685C1.17375 -0.0203529 1.43704 0.0613083 1.64125 0.231047L7.00125 4.70105L12.3613 0.381047C12.508 0.258764 12.6868 0.181087 12.8763 0.157207C13.0659 0.133328 13.2583 0.164245 13.4308 0.246301C13.6034 0.328357 13.7488 0.458116 13.8499 0.620227C13.9509 0.782337 14.0035 0.970013 14.0013 1.16105Z"
+                      fill="white" />
+                    <path class="close"
+                      d="M14.0013 5.83749C14.0018 5.68809 13.9688 5.54048 13.9048 5.4055C13.8407 5.27053 13.7473 5.15161 13.6313 5.05749L7.63125 0.227488C7.45232 0.0804066 7.22788 3.15941e-07 6.99625 3.05816e-07C6.76463 2.95691e-07 6.54018 0.0804065 6.36125 0.227488L0.361252 5.22749C0.157035 5.39723 0.028611 5.64114 0.00423124 5.90556C-0.0201485 6.16999 0.0615134 6.43327 0.231252 6.63749C0.40099 6.8417 0.644902 6.97013 0.909328 6.99451C1.17375 7.01889 1.43704 6.93723 1.64125 6.76749L7.00125 2.29749L12.3613 6.61749C12.508 6.73977 12.6868 6.81745 12.8763 6.84133C13.0659 6.86521 13.2583 6.83429 13.4308 6.75223C13.6034 6.67018 13.7488 6.54042 13.8499 6.37831C13.9509 6.2162 14.0035 6.02852 14.0013 5.83749Z"
+                      fill="#000985" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="item__descr">Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a
+              variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes
+              the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to
+              refer to stem cell transplants, also known as bone marrow transplants. Most commonly “stem cell therapy”
+              is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative
+              cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These
+              concentrated regenerative cells are then used to treat specific injuries typically by injecting them into
+              the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved
+              and clinics performing it illegally in the US or in other countries perform various versions of the
+              procedure to treat illnesses and injuries with little to no clinical evidence. At InGeneron we use the
+              term “regenerative cell therapy” since there are many different cell types and regenerative properties
+              collected and used by our therapy along with adult stem cells. Importantly we do not treat patients
+              outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous
+              clinical testing.
+            </div>
+          </li>
+          <li class="answers__item item">
+            <div class="item__block" id="answersItemFromList-2">
+              <h3 class="item__title">Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.</h3>
+              <div class="item__open">
+                <svg class="open-circle" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <circle class="open-circle" cx="20" cy="20" r="20" fill="#757AEF"
+                    style="box-shadow: 0px 4px 30px 0px rgba(166, 190, 226, 0.5);" />
+                  <g transform="translate(13 16.5)">
+                    <path class="open"
+                      d="M14.0013 1.16105C14.0018 1.31044 13.9688 1.45805 13.9048 1.59303C13.8407 1.72801 13.7473 1.84693 13.6313 1.94105L7.63125 6.77105C7.45232 6.91813 7.22788 6.99853 6.99625 6.99853C6.76463 6.99853 6.54018 6.91813 6.36125 6.77105L0.361252 1.77105C0.157035 1.60131 0.028611 1.3574 0.00423124 1.09297C-0.0201485 0.828545 0.0615134 0.565264 0.231252 0.361047C0.40099 0.156831 0.644902 0.0284066 0.909328 0.00402685C1.17375 -0.0203529 1.43704 0.0613083 1.64125 0.231047L7.00125 4.70105L12.3613 0.381047C12.508 0.258764 12.6868 0.181087 12.8763 0.157207C13.0659 0.133328 13.2583 0.164245 13.4308 0.246301C13.6034 0.328357 13.7488 0.458116 13.8499 0.620227C13.9509 0.782337 14.0035 0.970013 14.0013 1.16105Z"
+                      fill="white" />
+                    <path class="close"
+                      d="M14.0013 5.83749C14.0018 5.68809 13.9688 5.54048 13.9048 5.4055C13.8407 5.27053 13.7473 5.15161 13.6313 5.05749L7.63125 0.227488C7.45232 0.0804066 7.22788 3.15941e-07 6.99625 3.05816e-07C6.76463 2.95691e-07 6.54018 0.0804065 6.36125 0.227488L0.361252 5.22749C0.157035 5.39723 0.028611 5.64114 0.00423124 5.90556C-0.0201485 6.16999 0.0615134 6.43327 0.231252 6.63749C0.40099 6.8417 0.644902 6.97013 0.909328 6.99451C1.17375 7.01889 1.43704 6.93723 1.64125 6.76749L7.00125 2.29749L12.3613 6.61749C12.508 6.73977 12.6868 6.81745 12.8763 6.84133C13.0659 6.86521 13.2583 6.83429 13.4308 6.75223C13.6034 6.67018 13.7488 6.54042 13.8499 6.37831C13.9509 6.2162 14.0035 6.02852 14.0013 5.83749Z"
+                      fill="#000985" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="item__descr">Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a
+              variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes
+              the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to
+              refer to stem cell transplants, also known as bone marrow transplants. Most commonly “stem cell therapy”
+              is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative
+              cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These
+              concentrated regenerative cells are then used to treat specific injuries typically by injecting them into
+              the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved
+              and clinics performing it illegally in the US or in other countries perform various versions of the
+              procedure to treat illnesses and injuries with little to no clinical evidence. At InGeneron we use the
+              term “regenerative cell therapy” since there are many different cell types and regenerative properties
+              collected and used by our therapy along with adult stem cells. Importantly we do not treat patients
+              outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous
+              clinical testing.
+            </div>
+          </li>
+          <li class="answers__item item">
+            <div class="item__block" id="answersItemFromList-3">
+              <h3 class="item__title">Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.</h3>
+              <div class="item__open">
+                <svg class="open-circle" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <circle class="open-circle" cx="20" cy="20" r="20" fill="#757AEF"
+                    style="box-shadow: 0px 4px 30px 0px rgba(166, 190, 226, 0.5);" />
+                  <g transform="translate(13 16.5)">
+                    <path class="open"
+                      d="M14.0013 1.16105C14.0018 1.31044 13.9688 1.45805 13.9048 1.59303C13.8407 1.72801 13.7473 1.84693 13.6313 1.94105L7.63125 6.77105C7.45232 6.91813 7.22788 6.99853 6.99625 6.99853C6.76463 6.99853 6.54018 6.91813 6.36125 6.77105L0.361252 1.77105C0.157035 1.60131 0.028611 1.3574 0.00423124 1.09297C-0.0201485 0.828545 0.0615134 0.565264 0.231252 0.361047C0.40099 0.156831 0.644902 0.0284066 0.909328 0.00402685C1.17375 -0.0203529 1.43704 0.0613083 1.64125 0.231047L7.00125 4.70105L12.3613 0.381047C12.508 0.258764 12.6868 0.181087 12.8763 0.157207C13.0659 0.133328 13.2583 0.164245 13.4308 0.246301C13.6034 0.328357 13.7488 0.458116 13.8499 0.620227C13.9509 0.782337 14.0035 0.970013 14.0013 1.16105Z"
+                      fill="white" />
+                    <path class="close"
+                      d="M14.0013 5.83749C14.0018 5.68809 13.9688 5.54048 13.9048 5.4055C13.8407 5.27053 13.7473 5.15161 13.6313 5.05749L7.63125 0.227488C7.45232 0.0804066 7.22788 3.15941e-07 6.99625 3.05816e-07C6.76463 2.95691e-07 6.54018 0.0804065 6.36125 0.227488L0.361252 5.22749C0.157035 5.39723 0.028611 5.64114 0.00423124 5.90556C-0.0201485 6.16999 0.0615134 6.43327 0.231252 6.63749C0.40099 6.8417 0.644902 6.97013 0.909328 6.99451C1.17375 7.01889 1.43704 6.93723 1.64125 6.76749L7.00125 2.29749L12.3613 6.61749C12.508 6.73977 12.6868 6.81745 12.8763 6.84133C13.0659 6.86521 13.2583 6.83429 13.4308 6.75223C13.6034 6.67018 13.7488 6.54042 13.8499 6.37831C13.9509 6.2162 14.0035 6.02852 14.0013 5.83749Z"
+                      fill="#000985" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="item__descr">Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a
+              variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes
+              the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to
+              refer to stem cell transplants, also known as bone marrow transplants. Most commonly “stem cell therapy”
+              is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative
+              cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These
+              concentrated regenerative cells are then used to treat specific injuries typically by injecting them into
+              the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved
+              and clinics performing it illegally in the US or in other countries perform various versions of the
+              procedure to treat illnesses and injuries with little to no clinical evidence. At InGeneron we use the
+              term “regenerative cell therapy” since there are many different cell types and regenerative properties
+              collected and used by our therapy along with adult stem cells. Importantly we do not treat patients
+              outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous
+              clinical testing.
+            </div>
+          </li>
+          <li class="answers__item item">
+            <div class="item__block" id="answersItemFromList-4">
+              <h3 class="item__title">Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.</h3>
+              <div class="item__open">
+                <svg class="open-circle" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <circle class="open-circle" cx="20" cy="20" r="20" fill="#757AEF"
+                    style="box-shadow: 0px 4px 30px 0px rgba(166, 190, 226, 0.5);" />
+                  <g transform="translate(13 16.5)">
+                    <path class="open"
+                      d="M14.0013 1.16105C14.0018 1.31044 13.9688 1.45805 13.9048 1.59303C13.8407 1.72801 13.7473 1.84693 13.6313 1.94105L7.63125 6.77105C7.45232 6.91813 7.22788 6.99853 6.99625 6.99853C6.76463 6.99853 6.54018 6.91813 6.36125 6.77105L0.361252 1.77105C0.157035 1.60131 0.028611 1.3574 0.00423124 1.09297C-0.0201485 0.828545 0.0615134 0.565264 0.231252 0.361047C0.40099 0.156831 0.644902 0.0284066 0.909328 0.00402685C1.17375 -0.0203529 1.43704 0.0613083 1.64125 0.231047L7.00125 4.70105L12.3613 0.381047C12.508 0.258764 12.6868 0.181087 12.8763 0.157207C13.0659 0.133328 13.2583 0.164245 13.4308 0.246301C13.6034 0.328357 13.7488 0.458116 13.8499 0.620227C13.9509 0.782337 14.0035 0.970013 14.0013 1.16105Z"
+                      fill="white" />
+                    <path class="close"
+                      d="M14.0013 5.83749C14.0018 5.68809 13.9688 5.54048 13.9048 5.4055C13.8407 5.27053 13.7473 5.15161 13.6313 5.05749L7.63125 0.227488C7.45232 0.0804066 7.22788 3.15941e-07 6.99625 3.05816e-07C6.76463 2.95691e-07 6.54018 0.0804065 6.36125 0.227488L0.361252 5.22749C0.157035 5.39723 0.028611 5.64114 0.00423124 5.90556C-0.0201485 6.16999 0.0615134 6.43327 0.231252 6.63749C0.40099 6.8417 0.644902 6.97013 0.909328 6.99451C1.17375 7.01889 1.43704 6.93723 1.64125 6.76749L7.00125 2.29749L12.3613 6.61749C12.508 6.73977 12.6868 6.81745 12.8763 6.84133C13.0659 6.86521 13.2583 6.83429 13.4308 6.75223C13.6034 6.67018 13.7488 6.54042 13.8499 6.37831C13.9509 6.2162 14.0035 6.02852 14.0013 5.83749Z"
+                      fill="#000985" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="item__descr">Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a
+              variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes
+              the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to
+              refer to stem cell transplants, also known as bone marrow transplants. Most commonly “stem cell therapy”
+              is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative
+              cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These
+              concentrated regenerative cells are then used to treat specific injuries typically by injecting them into
+              the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved
+              and clinics performing it illegally in the US or in other countries perform various versions of the
+              procedure to treat illnesses and injuries with little to no clinical evidence. At InGeneron we use the
+              term “regenerative cell therapy” since there are many different cell types and regenerative properties
+              collected and used by our therapy along with adult stem cells. Importantly we do not treat patients
+              outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous
+              clinical testing.
+            </div>
+          </li>
+          <li class="answers__item item">
+            <div class="item__block" id="answersItemFromList-5">
+              <h3 class="item__title">Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.</h3>
+              <div class="item__open">
+                <svg class="open-circle" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <circle class="open-circle" cx="20" cy="20" r="20" fill="#757AEF"
+                    style="box-shadow: 0px 4px 30px 0px rgba(166, 190, 226, 0.5);" />
+                  <g transform="translate(13 16.5)">
+                    <path class="open"
+                      d="M14.0013 1.16105C14.0018 1.31044 13.9688 1.45805 13.9048 1.59303C13.8407 1.72801 13.7473 1.84693 13.6313 1.94105L7.63125 6.77105C7.45232 6.91813 7.22788 6.99853 6.99625 6.99853C6.76463 6.99853 6.54018 6.91813 6.36125 6.77105L0.361252 1.77105C0.157035 1.60131 0.028611 1.3574 0.00423124 1.09297C-0.0201485 0.828545 0.0615134 0.565264 0.231252 0.361047C0.40099 0.156831 0.644902 0.0284066 0.909328 0.00402685C1.17375 -0.0203529 1.43704 0.0613083 1.64125 0.231047L7.00125 4.70105L12.3613 0.381047C12.508 0.258764 12.6868 0.181087 12.8763 0.157207C13.0659 0.133328 13.2583 0.164245 13.4308 0.246301C13.6034 0.328357 13.7488 0.458116 13.8499 0.620227C13.9509 0.782337 14.0035 0.970013 14.0013 1.16105Z"
+                      fill="white" />
+                    <path class="close"
+                      d="M14.0013 5.83749C14.0018 5.68809 13.9688 5.54048 13.9048 5.4055C13.8407 5.27053 13.7473 5.15161 13.6313 5.05749L7.63125 0.227488C7.45232 0.0804066 7.22788 3.15941e-07 6.99625 3.05816e-07C6.76463 2.95691e-07 6.54018 0.0804065 6.36125 0.227488L0.361252 5.22749C0.157035 5.39723 0.028611 5.64114 0.00423124 5.90556C-0.0201485 6.16999 0.0615134 6.43327 0.231252 6.63749C0.40099 6.8417 0.644902 6.97013 0.909328 6.99451C1.17375 7.01889 1.43704 6.93723 1.64125 6.76749L7.00125 2.29749L12.3613 6.61749C12.508 6.73977 12.6868 6.81745 12.8763 6.84133C13.0659 6.86521 13.2583 6.83429 13.4308 6.75223C13.6034 6.67018 13.7488 6.54042 13.8499 6.37831C13.9509 6.2162 14.0035 6.02852 14.0013 5.83749Z"
+                      fill="#000985" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="item__descr">Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a
+              variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes
+              the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to
+              refer to stem cell transplants, also known as bone marrow transplants. Most commonly “stem cell therapy”
+              is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative
+              cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These
+              concentrated regenerative cells are then used to treat specific injuries typically by injecting them into
+              the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved
+              and clinics performing it illegally in the US or in other countries perform various versions of the
+              procedure to treat illnesses and injuries with little to no clinical evidence. At InGeneron we use the
+              term “regenerative cell therapy” since there are many different cell types and regenerative properties
+              collected and used by our therapy along with adult stem cells. Importantly we do not treat patients
+              outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous
+              clinical testing.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__block container">
+      <div class="logo"></div>
+      <nav class="nav">
+        <ul class="nav__list list-reset">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Каталог</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Производители</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Для кого мы&nbsp;работаем</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Сертификаты</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">О&nbsp;нас</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">FAQ</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="footer__btn hover active btn-reset">ОСТАВИТЬ ЗАЯВКУ</button>
+    </div>
+  </footer>
+</body>
+
+</html>
